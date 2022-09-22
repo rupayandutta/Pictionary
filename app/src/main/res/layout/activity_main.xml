@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/ash"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/app_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/app_name"
+        android:textColor="@color/black"
+        android:textSize="30sp"/>
+
+    <Button
+        android:id="@+id/btn_sign_in_intro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginStart="20sp"
+        android:layout_marginTop="20sp"
+        android:layout_marginEnd="20sp"
+        android:backgroundTint="@color/black"
+        android:gravity="center"
+        android:paddingTop="5sp"
+        android:paddingBottom="5sp"
+        android:text="START GAME"
+        android:textColor="@color/white"
+        android:textSize="20sp" />
+
+</LinearLayout>
